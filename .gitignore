@@ -1,0 +1,23 @@
+node_modules/
+.next/
+.placeora-data/
+out/
+coverage/
+.env
+.env.local
+.env.*.local
+.DS_Store
+npm-debug.log*
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and build files
+node_modules/
+.next/
+*.tsbuildinfo
+
+# Local Placeora data
+.placeora-data/
